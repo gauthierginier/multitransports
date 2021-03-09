@@ -13,6 +13,9 @@ app = Flask(__name__, template_folder=template_dir)
 CORS(app)
 main()
 
+app.static_url_path = "http://127.0.0.1:5000/static/"
+app.static_folder = "./front/static"
+
 app.add_url_rule('/', view_func=route.entry_point)
 app.add_url_rule('/hello_world', view_func=route.hello_world)
 app.add_url_rule('/<ville>/stations/<station>', view_func=route.nexttram)

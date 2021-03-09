@@ -4,7 +4,7 @@ from back.requestsapi import *
 
 
 def entry_point():
-    return render_template('./app.html')
+    return render_template('./index.html')
 
 def hello_world():
     return 'Hello Boug'

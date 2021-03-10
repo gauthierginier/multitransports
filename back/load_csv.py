@@ -1,4 +1,4 @@
-from back.addtotable import insert_csv_row
+from multitransports.back.addtotable import insert_csv_row
 
 def load_csv(path, cursor, ville):
     """ This function load and read the csv file, and insert row in db file.

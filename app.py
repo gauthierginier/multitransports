@@ -1,8 +1,8 @@
 import os
 from flask import Flask
 from flask_cors import CORS
-from multitransports.back.route import *
-from multitransports.back.main import main
+from back.route import *
+from back.main import main
 from apscheduler.schedulers.background import BackgroundScheduler
 sched = BackgroundScheduler(daemon=True)
 sched.add_job(main,'interval',seconds=59)

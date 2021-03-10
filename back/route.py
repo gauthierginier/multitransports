@@ -1,6 +1,6 @@
 from flask import render_template, jsonify
 
-from multitransports.back.requestsapi import *
+from back.requestsapi import *
 
 
 def entry_point():

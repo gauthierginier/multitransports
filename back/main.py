@@ -1,8 +1,8 @@
 import sqlite3
 import sys
-from multitransports.back.liste_ville import list_ville
-from multitransports.back.create_schema import create_schema  
-from multitransports.back.refresh import refresh
+from back.liste_ville import list_ville
+from back.create_schema import create_schema  
+from back.refresh import refresh
 
 
 
